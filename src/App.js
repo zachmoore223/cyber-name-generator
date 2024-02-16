@@ -9,6 +9,7 @@ function App() {
       </header>
       <body>
       <div>
+        <br/><br/><br/><br/><br/><br/>
             <NameGenerator />
        </div>
       </body>

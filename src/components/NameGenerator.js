@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../App.css';
 
 const NameGenerator = () => {
   const prefixes = [
@@ -26,7 +27,7 @@ const NameGenerator = () => {
   'phage', 'plex', 'ploid', 'pod', 'rium', 'roid', 'saur', 'saurus', 'tome', 'toid', 'tron', 'tronic', 'ton', 'um', 'zoid'
 ];
 
-  const [generatedName, setGeneratedName] = useState('');
+  const [generatedName, setGeneratedName] = useState('Generated Name');
 
   const isVowel = (char) => ['a', 'e', 'i', 'o', 'u'].includes(char.toLowerCase());
 
@@ -47,8 +48,9 @@ const NameGenerator = () => {
 
   return (
     <div>
-      <h1> {generatedName}</h1>
-      <button onClick={generateRandomName}>Generate Cyber Name</button>
+      <h1 class="cyber-header"> {generatedName}</h1>
+      <br/>
+      <button class="cyber-button" onClick={generateRandomName}>Generate Cyber Name</button>
     </div>
   );
 };
