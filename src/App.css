@@ -72,6 +72,13 @@ h1.cyber-header::after {
   animation: pulse-underline 2s ease-in-out forwards, color-pulse 4s infinite alternate; /* Adding the color pulse animation */
 }
 
+h1.cyber-name-gen {
+  /* Header styles */
+  font-family: 'Roboto', sans-serif; /* Futuristic font */
+  font-size: 25px;
+  color: #008000; /* Darker green text color */
+}
+
 @keyframes pulse-underline {
   0% {
       transform: scaleX(0);

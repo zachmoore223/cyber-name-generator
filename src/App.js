@@ -9,6 +9,7 @@ function App() {
       </header>
       <body>
       <div>
+        <h1 class="cyber-name-gen"> Cyber Planet Name Generator</h1>
         <br/><br/><br/><br/><br/><br/>
             <NameGenerator />
        </div>
