@@ -55,7 +55,7 @@ h1.cyber-header {
   /* Header styles */
   font-family: 'Roboto', sans-serif; /* Futuristic font */
   font-size: 50px;
-  color: #008000; /* Darker green text color */
+  color: #00ff00; /* Darker green text color */
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
@@ -76,7 +76,7 @@ h1.cyber-name-gen {
   /* Header styles */
   font-family: 'Roboto', sans-serif; /* Futuristic font */
   font-size: 25px;
-  color: #008000; /* Darker green text color */
+  color: #00ff00; /* Darker green text color */
 }
 
 @keyframes pulse-underline {
