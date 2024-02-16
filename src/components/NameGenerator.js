@@ -47,7 +47,7 @@ const NameGenerator = () => {
 
   return (
     <div>
-      <h2>Generated Name: {generatedName}</h2>
+      <h1> {generatedName}</h1>
       <button onClick={generateRandomName}>Generate Name</button>
     </div>
   );
