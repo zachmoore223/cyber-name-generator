@@ -5,7 +5,7 @@ const NameGenerator = () => {
   'Aero', 'Ash', 'Ast', 'Aster', 'Astro', 'Astra', 'Cometo', 'Comet', 'Cos', 'Cosmo', 'Cryo', 'Crypt', 'Crypto', 'Dextro', 'Dextra', 
   'Dyno', 'Dynamo', 'Eclip', 'Eclipto', 'Eclipt', 'Exo', 'Exoplaneto', 'Equa', 
   'Galactic', 'Gala', 'Galacto', 'Galac','Galaga', 'Galag', 'Glob', 'Geo', 'Globu', 'Globula', 'Helio', 'Hel', 'Heli', 'Heliaco', 'Hydra', 'Hydro', 
-  'Hyper', 'Hypo', 'Hypergiant', 'Interstella', 'Interstellar', 'Inter', 'Intra', 
+  'Hyper', 'Hypo', 'Interstella', 'Interstellar', 'Inter', 'Intra', 
   'Luna', 'Lun', 'Lux', 'Luxa', 'Luxo', 'Lumi', 'Macro', 'Mac', 'Magna', 'Magneto', 'Magnet',
   'Mecha', 'Meso', 'Meteor', 'Meteora', 'Meteoro', 'Meta', 'Micro', 'Mechan', 'Mechano', 'Mecho',
   'Mic', 'Neo', 'Nebula', 'Neutrino', 'Noct', 'Nocto', 'Nova', 'Novo', 'Novum', 
