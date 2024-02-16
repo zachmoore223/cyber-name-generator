@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const NameGenerator = () => {
   const prefixes = [
-'Aero', 'Anti', 'Omni', 'Noct','Lux','Lumi','Shpere','Nebula','Nova','Ash','Meta','Astro','Astra','Galactic','Gala','Hydro','Magna','Turbo','Dextro','Dextra','Globula','Globu',
+'Aero', 'Anti', 'Omni', 'Noct','Lux','Lumi','Sphere','Nebula','Nova','Ash','Meta','Astro','Astra','Galactic','Gala','Hydro','Magna','Turbo','Dextro','Dextra','Globula','Globu',
 'Stella','Interstella','Neutrino','Super','Sub','Mecha','Hydra','Xeno','Terra','Void',
   ];
   const suffixes = ['tron','bot','ionic','onic','ic','tronic','botic','borg','acid','cid','adon','idon','don','agogue','ergy','oid','eidos','gram','naut','arch','biotic',
