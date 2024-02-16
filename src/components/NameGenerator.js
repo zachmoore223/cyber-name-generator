@@ -27,7 +27,7 @@ const NameGenerator = () => {
   'phage', 'plex', 'ploid', 'pod', 'rium', 'roid', 'saur', 'saurus', 'tome', 'toid', 'tron', 'tronic', 'ton', 'um', 'zoid'
 ];
 
-  const [generatedName, setGeneratedName] = useState('Generated Name');
+  const [generatedName, setGeneratedName] = useState('CLICK BELOW TO GENERATE A NAME');
 
   const isVowel = (char) => ['a', 'e', 'i', 'o', 'u'].includes(char.toLowerCase());
 
