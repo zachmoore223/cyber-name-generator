@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-const NameGenerator = () => {
+const NameGenerator2 = () => {
   const prefixes = [
   'Aero', 'Ash', 'Ast', 'Aster', 'Astro', 'Astra', 'Cometo', 'Comet', 'Cos', 'Cosmo', 'Cryo', 'Crypt', 'Crypto', 'Dextro', 'Dextra', 
   'Dyno', 'Dynamo', 'Eclip', 'Eclipto', 'Eclipt', 'Exo', 'Exoplaneto', 'Equa', 
   'Galactic', 'Gala', 'Galacto', 'Galac','Galaga', 'Galag', 'Glob', 'Geo', 'Globu', 'Globula', 'Helio', 'Hel', 'Heli', 'Heliaco', 'Hydra', 'Hydro', 
   'Hyper', 'Hypo', 'Hypergiant', 'Interstella', 'Interstellar', 'Inter', 'Intra', 
   'Luna', 'Lun', 'Lux', 'Luxa', 'Luxo', 'Lumi', 'Macro', 'Mac', 'Magna', 'Magneto', 'Magnet',
-  'Mecha', 'Meso', 'Meteor', 'Meteora', 'Meteoro', 'Meta', 'Micro', 'Mechan', 'Mechano', 'Mecho',
+  'Mecha', 'Meso', 'Meteor', 'Meteora', 'Meteoro', 'Meta', 'Micro', 
   'Mic', 'Neo', 'Nebula', 'Neutrino', 'Noct', 'Nocto', 'Nova', 'Novo', 'Novum', 
   'Omni', 'Paleo', 'Pale', 'Poly', 'Pol', 'Planet', 'Plasma', 'Plasm', 'Proto', 'Quasar', 'Radio', 'Radi', 'Supernov', 'Supernova', 'Solar', 
   'Sidero', 'Stellaro', 'Sol', 'Sphere', 'Stella', 'Sub', 'Sublo', 'Super', 'Tele', 'Terr', 'Terra', 'Thermo', 'Turbo', 'Uranus', 'Ven', 
@@ -48,9 +48,9 @@ const NameGenerator = () => {
   return (
     <div>
       <h1> {generatedName}</h1>
-      <button onClick={generateRandomName}>Generate Cyber Name</button>
+      <button onClick={generateRandomName}>Generate Planet Name</button>
     </div>
   );
 };
 
-export default NameGenerator;
+export default NameGenerator2;
