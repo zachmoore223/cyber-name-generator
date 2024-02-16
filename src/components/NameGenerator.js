@@ -4,7 +4,7 @@ const NameGenerator = () => {
   const prefixes = ['Aero', 'Anti', 'Omni', 'Noct','Lux','Lumi','Sphere','Nebula','Nova','Ash','Meta','Astro','Astra','Ast','Galactic','Gala','Hydro','Magna','Turbo','Dextro',
   'Dextra','Globula','Globu','Stella','Interstella','Neutrino','Super','Sub','Mecha','Hydra','Xeno','Terra','Void', 'Aster', 'Luna', 'Lun', 'Sol', 'Cos', 'Cosmo'];
 
-  const suffixes = ['tron','bot','ionic','onic','ic','tronic','botic','borg','acid','cid','adon','idon','don','agogue','ergy','oid','eidos','gram','naut','arch','biotic',
+  const suffixes = ['bionic', 'tron','bot','ionic','onic','ic','tronic','botic','borg','acid','cid','adon','idon','don','agogue','ergy','oid','eidos','gram','naut','arch','biotic',
   'crpyt','drome','genesis','hedra','hedron','morph','omicon','chrome','ome','phage','ploid','droid','pod','saur','saurus','tome','zoid','roid','noid','toid','crid','acrid'];
 
   const [generatedName, setGeneratedName] = useState('');
