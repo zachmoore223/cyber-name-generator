@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 
 const NameGenerator = () => {
   const prefixes = ['Aero', 'Anti', 'Ash', 'Ast', 'Aster', 'Astro', 'Astra', 'Cos', 'Cosmo', 'Dextro', 'Dextra', 'Galactic', 'Gala', 'Glob', 'Globu', 'Globula', 'Hydra', 'Hydro', 
-  'Interstella', 'Luna', 'Lun', 'Lux', 'Lumi', 'Magna', 'Mecha', 'Meta', 'Nebula', 'Neutrino', 'Noct', 'Nova', 'Omni', 'Sol', 'Sphere', 'Stella', 'Sub', 'Super', 'Terra', 'Turbo', 
+  'Interstella', 'Interstellar', 'Luna', 'Lun', 'Lux', 'Luxa', 'Luxo', 'Lumi', 'Magna', 'Mecha', 'Meta', 'Nebula', 'Neutrino', 'Noct', 'Nocto', 'Nova', 'Omni', 'Sol', 'Sphere', 
+  'Stella', 'Sub', 'Super', 'Terra', 'Turbo', 
   'Void', 'Xeno'];
 
-  const suffixes = ['acid', 'acrid', 'adon', 'agogue', 'arch', 'biotic', 'bionic', 'bot', 'botic', 'borg', 'chrome', 'cid', 'crid', 'crpyt', 'drome', 'don', 'droid', 'eidos', 'ergy', 
-  'genesis', 'gram', 'hedra', 'hedron', 'ic', 'idon', 'ionic', 'micon', 'morph', 'naut', 'noid', 'omic', 'omicon', 'onic', 'oid', 'phage', 'ploid', 'pod', 'roid', 'saur', 'saurus', 'tome', 
+  const suffixes = ['acid', 'acrid', 'adon', 'agogue', 'aplex', 'arch', 'abiotic', 'abionic', 'abot', 'achrome', 'adon', 'atron', 'asaur', 'asaurus', 'atome', 'biotic', 'bionic', 'bot', 'botic', 'borg', 'chrome', 
+  'cid', 'crid', 'crpyt', 'dome', 'drome', 'don', 'droid', 'eidos', 'ellite', 'ergy', 
+  'genesis', 'gram', 'hedra', 'hedron', 'ic', 'idon', 'ionic', 'micon', 'morph', 'naut', 'noid', 'obot', 'ochrome', 'odon', 'omic', 'omicon', 'onaut', 'onic', 'oplex', 'oid', 'otron', 
+  'phage', 'plex', 'ploid', 'pod', 'roid', 'saur', 'saurus', 'tome', 
   'toid', 'tron', 'tronic', 'zoid'];
 
   const [generatedName, setGeneratedName] = useState('');
