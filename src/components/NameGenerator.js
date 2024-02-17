@@ -19,7 +19,7 @@ const NameGenerator = () => {
   'acid', 'acrid', 'adon', 'agogue', 'aplex', 'arch', 'abiotic', 'abionic', 'abot', 'achrome', 'adon', 'atron', 'asaur', 'asaurus', 'atome', 
   'atoid', 'atron', 'atronic', 'azoid', 'aborg', 'abit', 'abyte', 'ablob', 'abrok', 'ablock',  'abric', 'ablic', 'arium', 'anom', 'amon', 'aton',
   'aburn', 'burn',
-  'biotic', 'bit', 'bionic', 'blob', 'block', 'blic', 'bot', 'botic', 'borg', 'brok', 'bric', 'byte', 'chrome',   'cid', 'crid', 'crpyt', 
+  'biotic', 'bit', 'bionic', 'blob', 'block', 'blic', 'bot', 'botic', 'borg', 'brok', 'bric', 'byte', 'chrome',   'cid', 'crid', 'crypt', 
   'dome', 'drome', 'don', 'droid', 'eidos', 'ellite', 'ergy', 'genesis', 'gram', 'hedra', 'hedron', 'ic', 'idon', 'ionic', 'ium', 
   'micon', 'morph', 'mon', 'naut', 'noid', 'nom', 'obot', 'ochrome', 'odon', 'omic', 'omicon', 'onaut', 'onic', 'oplex', 'oid', 'otron', 'oton',
   'ocid', 'ocrid', 'odon', 'oplex', 'obiotic', 'obionic', 'osaur', 'osaurus', 'otome', 'obyte', 'obrok', 'orium', 'obrun',
